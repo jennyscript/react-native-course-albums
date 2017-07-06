@@ -1,6 +1,8 @@
 import React from 'react'
-import { AppRegistry, Text } from 'react-native'
+import { AppRegistry } from 'react-native'
 
-const App = () => <Text>Some text</Text>
+import Header from './src/components/Header'
+
+const App = () => <Header />
 
 AppRegistry.registerComponent('albums', () => App)
