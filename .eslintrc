@@ -3,5 +3,8 @@
   "rules": {
     "comma-dangle": ["error", "never"],
     "semi": ["error", "never"]
+  },
+  "globals": {
+    "fetch": false
   }
 }
