@@ -1,9 +1,14 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { Text } from 'react-native'
+
+import Card from './Card'
+import CardSection from './CardSection'
 
 const AlbumDetail = ({ album }) =>
-  <View>
-    <Text>{album.title}</Text>
-  </View>
+  <Card>
+    <CardSection>
+      <Text>{album.title}</Text>
+    </CardSection>
+  </Card>
 
 export default AlbumDetail
