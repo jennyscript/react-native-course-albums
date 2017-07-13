@@ -11,7 +11,6 @@ class AlbumList extends Component {
       .then(responseData => this.setState({ albums: responseData }))
   }
   render() {
-    console.log(this.state.albums)
     return (
       <ScrollView>
         {this.state.albums.map(album =>
